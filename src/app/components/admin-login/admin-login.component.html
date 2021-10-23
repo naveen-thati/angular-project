@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>ADMIN LOGIN</h1>
+          <H6>Enter your credentials to login</H6>
+        </div>
+        <form>
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput" class="form-label">Name:</label>
+              <input type="text" class="form-control" [(ngModel)]="Name" value="System Admin" disabled>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput" class="form-label">Email:</label>
+              <input type="email" class="form-control" [(ngModel)]="email" value="SystemAdmin@[company].com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Password:</label>
+              <input type="password" class="form-control" placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Login</button>
+          </form>
+        </form>
+      </div>
+    </div>
+
