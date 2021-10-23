@@ -3,6 +3,8 @@
 
   "managers": [],
 
-  "admin": []
+  "admin": [],
+
+  "signedUpUsers":[]
 }
 
