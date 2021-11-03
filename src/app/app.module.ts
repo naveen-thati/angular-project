@@ -14,6 +14,7 @@ import { MsignupComponent } from './components/msignup/msignup.component';
 import { EsignupComponent } from './components/esignup/esignup.component';
 import { FormsModule } from '@angular/forms';
 import { EmployeeManagementComponent } from './components/employee-management/employee-management.component';
+import { RexComponent } from './components/rex/rex.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { EmployeeManagementComponent } from './components/employee-management/em
     EsignupComponent,
     EsignupComponent,
     MsignupComponent,
-    EmployeeManagementComponent
+    EmployeeManagementComponent,
+    RexComponent
   ],
 
   imports: [
